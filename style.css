@@ -1,0 +1,87 @@
+.card {
+    width: 327px;
+    height: 478px;
+    border: 1px solid;
+}
+
+/* .media {
+    height: 202px;
+    background-color: bisque;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+} */
+
+.content {
+    padding: 20px;
+}
+
+/* .color-secondary {
+    color: gray;
+} */
+
+:root {
+    --primary:black;
+    --secondary: gray;
+}
+
+
+.title-primary {
+    font-size: 24px;
+}
+
+/* .title-secondary {
+    margin: 20px;
+    color: gray;
+}
+
+.title-primary {
+    margin: 20px;
+    font-size: 24px;
+}
+
+.card-desc {
+    margin: 20px;
+    color: gray;
+} */
+
+.title-secondary {
+    color: var(--secondary)
+}
+
+.card-desc {
+    color: var(--secondary);
+}
+
+/* .tags { 最推荐用flexbox 其次用child horizontal-space，vertical-space
+
+    border: 2px solid rgb(225, 192, 255);
+    display: flex;
+    /*   除了长子之外的其他孩子， .tags > * + * {margin-left: 15px}   */
+    /* justify-content: space-between;
+    align-content: center;
+    align-items: center; */
+
+.horizontal-space > * + *{
+    margin-left: 15px;
+}
+.vertical-space-medium > * + * {
+    margin-top: 15px;
+}
+
+.vertical-space-large > * + * {
+    margin-top: 25px;
+}
+
+.centralize-content {
+    display: flex;
+    justify-content: center;
+}
+
+.tag::before {
+    content: '😊';
+}
